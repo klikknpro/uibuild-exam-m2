@@ -3,9 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js"></script>
-    <title>Document</title>
+    <title>UIBuild Exam M2</title>
   </head>
-  <body></body>
+  <body>
+    <div id="root">
+      <form>
+        <h1>Visszajelzés</h1>
+        <label for="targy"></label>
+        <input type="text" name="targy" placeholder="Tárgy" />
+        <label for="megjegyzes"></label>
+        <textarea name="megjegyzes" placeholder="Megjegyzés"></textarea>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox" />
+          <label for="checkbox">Elolvastam és elfogadom az <span>Adatkezelési Tájékoztatót</span></label>
+        </div>
+        <button>MENTÉS</button>
+      </form>
+    </div>
+  </body>
 </html>
